@@ -1,20 +1,36 @@
-# Minimal Mistakes remote theme starter
+# Derin Gezgin's Academic Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+This repository contains the source code for my personal academic website. The site is built using Jekyll with the Minimal Mistakes theme.
 
-Contains basic configuration to get you a site with:
+## About Me
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+I am a sophomore at Connecticut College, pursuing degrees in Computer Science and Data Science. My research interests include artificial intelligence, machine learning, and robotics.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Website Structure
+
+The website includes the following sections:
+- Home page with a brief introduction
+- About page with personal information
+- Research page detailing my research projects
+- CV page with my academic and professional experience
+- Contact page with ways to reach me
+
+## Technical Details
+
+This website is built with:
+- Jekyll static site generator
+- Minimal Mistakes theme
+- GitHub Pages for hosting
+
+## Local Development
+
+To run this website locally:
+
+1. Install Ruby and Jekyll
+2. Clone this repository
+3. Run `bundle install`
+4. Run `bundle exec jekyll serve`
+5. Visit `http://localhost:4000` in your browser
 
 ---
 

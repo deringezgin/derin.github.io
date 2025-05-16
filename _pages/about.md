@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I was born and lived in Izmir, Turkey until I was 18 when I came to the United States to study Computer Science and Data Science at Connecticut College. I am currently a sophomore at Connecticut College and expected to graduate on May 2027.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+While pursuing my degrees in Computer Science and Data Science, I actively collaborate with my professors at Connecticut College on multiple research projects. At the same time, I work as a teaching assistant and grader for multiple Computer Science courses. I am also a member of the Computer Science Student Advisory Board as the Diversity Chair.
+
+In my free time, I enjoy playing the piano and the trumpet. Every semester, I take 1-1 instrumental music class in order to keep my skills up to date and to further explore my musical interests in both classical music and Jazz.
+
+Feel free to check out my Research section to learn about my research interests, or my CV section to learn more about my academic and professional experiences.
