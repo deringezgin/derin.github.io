@@ -44,3 +44,11 @@ a:hover {
   transform: scale(1.08) !important;
   z-index: 2;
 }
+
+.button-link {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.button-link:hover {
+  transform: scale(1.05) !important;
+}

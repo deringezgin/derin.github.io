@@ -70,7 +70,7 @@
                     <br>
                     <div style="margin:10px 0;">
                       {% for link in project.links %}
-                      <a href="{{ link.url }}" target="_blank" style="background:{{ link.color }};color:#fff;padding:2px 10px;border-radius:5px;text-decoration:none;font-weight:500;font-size:0.97em;display:inline-block;{% if forloop.index > 1 %}margin-left:8px;{% endif %}">{{ link.title }}</a>
+                      <a href="{{ link.url }}" target="_blank" class="button-link" style="background:{{ link.color }};color:#fff;padding:2px 10px;border-radius:5px;text-decoration:none;font-weight:500;font-size:0.97em;display:inline-block;{% if forloop.index > 1 %}margin-left:8px;{% endif %}">{{ link.title }}</a>
                       {% endfor %}
                     </div>
                   </td>
