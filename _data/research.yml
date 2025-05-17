@@ -1,0 +1,16 @@
+overview: |
+  I'm a member of two research labs at Connecticut College: [Autonomous Agent Learning Lab](https://oak.conncoll.edu/parker/research.html) and [Informatics Lab](https://www.informatics.digital.conncoll.edu). My research focuses on computer vision, machine learning, and artificial intelligence.
+
+publications:
+  - title: A framework for river connectivity classification using temporal image processing and attention based neural networks
+    authors: Timothy James Becker, <strong>Derin Gezgin</strong>, Jun Yi He Wu, Mary Becker
+    venue: ACM Conference on Computing and Sustainable Societies
+    year: 2025
+    image: river_connectivity.png
+    links:
+      - title: arXiv
+        url: https://arxiv.org/abs/2502.00474
+        color: "#b31b1b"
+      - title: Code
+        url: https://github.com/deringezgin/River-Connectivity-Classification
+        color: "#24292e" 

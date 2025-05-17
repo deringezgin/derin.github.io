@@ -1,0 +1,28 @@
+title: Derin Gezgin
+description: Personal website for Derin Gezgin - Computer Science & Data Science Student at Connecticut College
+url: https://deringezgin.github.io
+baseurl: ""
+
+# GitHub Pages settings
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor 

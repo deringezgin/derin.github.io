@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+    <meta name="author" content="{{ site.title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Latin+Modern+Roman:wght@400;700&display=swap">
+    {% if page.custom_css %}
+      {% for stylesheet in page.custom_css %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+      {% endfor %}
+    {% endif %}
+  </head>
+
+  <body>
+    {{ content }}
+    
+    <div style="text-align:center; margin-top: 32px; font-size: 15px;">
+      &copy; <span style="color:#888">{{ site.title }}</span><br>
+      <a href="https://github.com/jonbarron/jonbarron.github.io" target="_blank" style="color:#888">credits</a>
+    </div>
+  </body>
+</html> 
