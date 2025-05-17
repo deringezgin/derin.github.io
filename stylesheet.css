@@ -104,14 +104,21 @@ a:hover {
 }
 
 .papertitle {
-  font-family: 'Latin Modern Roman', serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #00008B;
+  font-family: 'Latin Modern Roman', serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #00008B !important;
   display: block;
   margin-bottom: 8px;
-  text-decoration: none;
+  text-decoration: none !important;
   line-height: 1.4;
+}
+
+.papertitle:hover,
+.papertitle:focus,
+.papertitle:active {
+  color: #00008B !important;
+  text-decoration: none !important;
 }
 
 .colored-box {
