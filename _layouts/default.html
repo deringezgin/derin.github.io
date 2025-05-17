@@ -13,37 +13,37 @@
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <table class="container table-base">
       <tbody>
-        <tr style="padding:0px">
-          <td style="padding:0px">
+        <tr class="no-padding">
+          <td class="no-padding">
             <!-- Intro Section -->
-            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <table class="table-base">
               <tbody>
-                <tr style="padding:0px">
-                  <td style="padding:2.5%;width:63%;vertical-align:middle">
-                    <p class="name" style="text-align: center;">
+                <tr class="no-padding">
+                  <td class="intro-cell">
+                    <p class="name">
                       Derin Gezgin
                     </p>
                     {{ page.intro_content }}
-                    <p style="text-align:center">
+                    <p class="center-text">
                       {% for link in page.links %}
                       [<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>]
                       {% endfor %}
                     </p>
                   </td>
-                  <td style="padding:2.5%;width:37%;max-width:37%">
-                    <img style="width:100%;max-width:100%;object-fit: cover;" alt="profile photo" src="{{ page.profile_photo }}">
+                  <td class="profile-cell">
+                    <img class="profile-image" alt="profile photo" src="{{ page.profile_photo }}">
                   </td>
                 </tr>
               </tbody>
             </table>
             
             <!-- Research Section -->
-            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <table class="table-base">
               <tbody>
                 <tr>
-                  <td style="padding:16px;width:100%;vertical-align:middle">
+                  <td class="research-cell">
                     <h2>Research</h2>
                     {{ page.research_intro }}
                   </td>
@@ -52,25 +52,25 @@
             </table>
             
             <!-- Research Projects -->
-            <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <table class="table-projects">
               <tbody>
                 {% for project in page.projects %}
                 <tr>
-                  <td style="padding:16px;width:40%;vertical-align:middle">
+                  <td class="project-image-cell">
                     <a href="{{ project.image }}" target="_blank">
-                      <img src="{{ project.image }}" class="project-image" style="width:100%;max-width:100%;object-fit:cover;">
+                      <img src="{{ project.image }}" class="project-image">
                     </a>
                   </td>
-                  <td style="padding:8px;width:60%;vertical-align:middle">
+                  <td class="project-content-cell">
                     <span class="papertitle">{{ project.title }}</span>
                     <br>
                     {{ project.authors }}
                     <br>
                     <em>{{ project.publication }}</em>
                     <br>
-                    <div style="margin:10px 0;">
+                    <div class="project-links">
                       {% for link in project.links %}
-                      <a href="{{ link.url }}" target="_blank" class="button-link" style="background:{{ link.color }};color:#fff;padding:2px 10px;border-radius:5px;text-decoration:none;font-weight:500;font-size:0.97em;display:inline-block;{% if forloop.index > 1 %}margin-left:8px;{% endif %}">{{ link.title }}</a>
+                      <a href="{{ link.url }}" target="_blank" class="button-link" style="background:{{ link.color }};">{{ link.title }}</a>
                       {% endfor %}
                     </div>
                   </td>
@@ -82,9 +82,9 @@
         </tr>
       </tbody>
     </table>
-    <div style="text-align:center; margin-top: 32px; font-size: 15px;">
-      &copy; <span style="color:#888">Derin Gezgin</span><br>
-      <a href="https://github.com/jonbarron/jonbarron.github.io" target="_blank" style="color:#888">credits</a>
+    <div class="footer">
+      &copy; <span class="footer-text">Derin Gezgin</span><br>
+      <a href="https://github.com/jonbarron/jonbarron.github.io" target="_blank" class="footer-text">credits</a>
     </div>
   </body>
 </html> 

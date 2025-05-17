@@ -5,6 +5,75 @@ body {
   background-color: #f8f9fa;
 }
 
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.table-base {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.table-projects {
+  composes: table-base;
+  border-spacing: 0 10px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.intro-cell {
+  padding: 2.5%;
+  width: 63%;
+  vertical-align: middle;
+}
+
+.profile-cell {
+  padding: 2.5%;
+  width: 37%;
+  max-width: 37%;
+}
+
+.research-cell {
+  padding: 16px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.project-image-cell {
+  padding: 16px;
+  width: 40%;
+  vertical-align: middle;
+}
+
+.project-content-cell {
+  padding: 8px;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.project-links {
+  margin: 10px 0;
+}
+
 a {
   color: #1772d0;
   text-decoration: none;
@@ -21,6 +90,7 @@ a:hover {
   font-weight: 700;
   color: #000;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .papertitle {
@@ -38,6 +108,9 @@ a:hover {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
   cursor: pointer;
   display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .project-image:hover {
@@ -47,8 +120,30 @@ a:hover {
 
 .button-link {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  background-color: inherit;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.97em;
+  display: inline-block;
+}
+
+.button-link:not(:first-child) {
+  margin-left: 8px;
 }
 
 .button-link:hover {
   transform: scale(1.05) !important;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 15px;
+}
+
+.footer-text {
+  color: #888;
 }
