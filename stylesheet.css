@@ -82,9 +82,10 @@ a:hover {
 
 .name {
   font-family: 'Latin Modern Roman', serif;
-  font-size: 38px;
-  font-weight: 500;
+  font-size: 42px !important;
+  font-weight: 700 !important;
   color: #000;
+  margin-bottom: 15px;
 }
 
 .one {
@@ -131,10 +132,11 @@ a:hover {
 }
 
 .project-image {
-  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  cursor: pointer !important;
 }
+
 .project-image:hover {
-  transform: scale(1.08);
-  z-index: 2;
+  transform: scale(1.08) !important;
+  z-index: 2 !important;
 }
