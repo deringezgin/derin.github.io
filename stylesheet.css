@@ -6,13 +6,13 @@ body {
 }
 
 a {
-  color: #00008B;
+  color: #1772d0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #000080;
-  text-decoration: underline;
+  color: #f09228;
+  text-decoration: none;
 }
 
 .name {
