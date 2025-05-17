@@ -51,11 +51,4 @@ projects:
     image: images/sparrow.png
     authors: Jim O'Connor, <strong>Derin Gezgin</strong>, Gary B. Parker
     publication: In Review
-    links:
-      - title: Paper
-        url: https://example.com/mahjong-paper
-        color: "#4285f4"
-      - title: Code
-        url: https://github.com/deringezgin/mahjong-ml
-        color: "#24292e"
 --- 
