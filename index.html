@@ -59,9 +59,7 @@ layout: default
             <br>
             <div style="margin:10px 0;">
               {% for link in pub.links %}
-                <a href="{{ link.url }}" target="_blank" 
-                   class="publication-link" 
-                   {% if forloop.index > 1 %}style="margin-left:8px; background:{{ link.color }};"{% else %}style="background:{{ link.color }};"{% endif %}>
+                <a href="{{ link.url }}" target="_blank" class="publication-link{% if forloop.index > 1 %} ml8{% endif %}" style="background:{{ link.color }};">
                   {{ link.title }}
                 </a>
               {% endfor %}
