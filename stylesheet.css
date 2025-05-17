@@ -127,3 +127,12 @@ a:hover {
   font-weight: bold;
   color: #e74c3c;
 }
+
+.project-image {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.project-image:hover {
+  transform: scale(1.08);
+  z-index: 2;
+}
