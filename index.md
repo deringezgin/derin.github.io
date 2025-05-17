@@ -34,7 +34,7 @@ research_intro: |
     I'm a member of two research labs at Connecticut College: <a href="https://oak.conncoll.edu/parker/research.html" target="_blank">Autonomous Agent Learning Lab</a> and <a href="https://www.informatics.digital.conncoll.edu" target="_blank">Informatics Lab</a>.
   </p>
   <p>
-    My research in the Autonomous Agent Learning Lab focuses on Artificial Intelligence for Games, and Evolutionary Robotics. While I work on real-world applications of computer vision and machine learning in the Informatics Lab.
+    My research in the <strong>Autonomous Agent Learning Lab</strong> focuses on Artificial Intelligence for Games, and Evolutionary Robotics; while I work on real-world applications of computer vision and machine learning in the <strong>Informatics Lab</strong>.
   </p>
 
 # Research Projects
