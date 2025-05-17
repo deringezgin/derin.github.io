@@ -36,14 +36,6 @@ research_intro: |
 
 # Research Projects
 projects:
-  - title: Evolutionary Optimization of Deep Learning Agents for Sparrow Mahjong
-      image: images/sparrow.png
-      authors: Jim O'Connor, <strong>Derin Gezgin</strong>, Gary B. Parker
-      publication: In Review
-  - title: Evolving Neural Controllers for Xpilot-AI Racing
-      image: images/sparrow.png
-      authors: Jim O'Connor, Nicholas Lorentzen, Gary B. Parker, <strong>Derin Gezgin</strong>, Gary B. Parker
-      publication: In Review
   - title: A framework for river connectivity classification using temporal image processing and attention based neural networks
     image: images/river_connectivity.png
     authors: Timothy James Becker, <strong>Derin Gezgin</strong>, Jun Yi He Wu, Mary Becker
@@ -55,4 +47,12 @@ projects:
       - title: Code
         url: https://github.com/deringezgin/River-Connectivity-Classification
         color: "#24292e"
+  - title: Evolutionary Optimization of Deep Learning Agents for Sparrow Mahjong
+    image: images/sparrow.png
+    authors: Jim O'Connor, <strong>Derin Gezgin</strong>, Gary B. Parker
+    publication: In Review
+  - title: Evolving Neural Controllers for Xpilot-AI Racing Using Neuroevolution of Augmenting Topologies
+    image: images/sparrow.png
+    authors: Jim O'Connor, Nicolas Lorentzen, Gary B. Parker, <strong>Derin Gezgin</strong>
+    publication: In Review
 --- 
