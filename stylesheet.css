@@ -161,3 +161,31 @@ a:hover {
 .footer-text {
   color: #888;
 }
+
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+  .table-projects tr {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .project-image-cell,
+  .project-content-cell {
+    display: block;
+    width: 100%;
+    padding: 12px;
+  }
+
+  .project-image-cell {
+    padding-top: 0;
+  }
+
+  .project-content-cell {
+    padding-bottom: 0;
+  }
+
+  .project-image {
+    max-height: 250px;
+    margin: 0 auto;
+  }
+}

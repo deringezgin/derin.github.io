@@ -56,11 +56,6 @@
               <tbody>
                 {% for project in page.projects %}
                 <tr>
-                  <td class="project-image-cell">
-                    <a href="{{ project.image }}" target="_blank">
-                      <img src="{{ project.image }}" class="project-image">
-                    </a>
-                  </td>
                   <td class="project-content-cell">
                     <span class="papertitle">{{ project.title }}</span>
                     <br>
@@ -73,6 +68,11 @@
                       <a href="{{ link.url }}" target="_blank" class="button-link" style="background:{{ link.color }};">{{ link.title }}</a>
                       {% endfor %}
                     </div>
+                  </td>
+                  <td class="project-image-cell">
+                    <a href="{{ project.image }}" target="_blank">
+                      <img src="{{ project.image }}" class="project-image" alt="{{ project.title }}">
+                    </a>
                   </td>
                 </tr>
                 {% endfor %}
