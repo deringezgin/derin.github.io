@@ -105,11 +105,12 @@ a:hover {
 
 .papertitle {
   font-family: 'Latin Modern Roman', serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   color: #00008B;
   display: block;
   margin-bottom: 5px;
+  text-decoration: none;
 }
 
 .colored-box {
@@ -132,11 +133,12 @@ a:hover {
 }
 
 .project-image {
-  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
   cursor: pointer;
+  display: block;
 }
 
 .project-image:hover {
-  transform: scale(1.08);
+  transform: scale(1.08) !important;
   z-index: 2;
 }
