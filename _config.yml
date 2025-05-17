@@ -1,11 +1,17 @@
 title: Derin Gezgin
 description: Personal website for Derin Gezgin
 baseurl: ""
-url: ""
+url: "https://deringezgin.github.io"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # GitHub Pages settings
 github: [metadata]
