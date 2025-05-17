@@ -1,20 +1,10 @@
-/*
- * Main Stylesheet for Derin Gezgin's Personal Website
- */
-
-/* ----------------------
-   Base Styles
-   ---------------------- */
 body {
   font-family: 'Latin Modern Roman', serif;
   font-size: 16px;
-  color: #2c3e50;
+  color: #000;
   background-color: #f8f9fa;
 }
 
-/* ----------------------
-   Links
-   ---------------------- */
 a {
   color: #00008B;
   text-decoration: none;
@@ -25,10 +15,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ----------------------
-   Components
-   ---------------------- */
-/* Name header */
 .name {
   font-family: 'Latin Modern Roman', serif;
   font-size: 42px;
@@ -37,7 +23,6 @@ a:hover {
   margin-bottom: 15px;
 }
 
-/* Paper titles */
 .papertitle {
   font-family: 'Latin Modern Roman', serif !important;
   font-size: 18px !important;
@@ -49,7 +34,6 @@ a:hover {
   line-height: 1.4;
 }
 
-/* Project images */
 .project-image {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
   cursor: pointer;
