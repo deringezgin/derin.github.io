@@ -162,30 +162,94 @@ a:hover {
   color: #888;
 }
 
-/* Add responsive styles */
-@media screen and (max-width: 768px) {
+/* Mobile responsive styles */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .table-base,
+  .table-projects,
+  .table-base tbody,
+  .table-projects tbody,
+  .table-base tr,
   .table-projects tr {
-    display: flex;
-    flex-direction: column-reverse;
+    display: block;
+    width: 100%;
+  }
+
+  .intro-cell,
+  .profile-cell {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .profile-image {
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .project-image-cell,
   .project-content-cell {
     display: block;
     width: 100%;
-    padding: 12px;
-  }
-
-  .project-image-cell {
-    padding-top: 0;
-  }
-
-  .project-content-cell {
-    padding-bottom: 0;
+    padding: 15px;
   }
 
   .project-image {
-    max-height: 250px;
+    max-height: 300px;
+    width: 100%;
     margin: 0 auto;
   }
+
+  .name {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+
+  .papertitle {
+    font-size: 16px !important;
+  }
+
+  .button-link {
+    margin: 5px;
+  }
+
+  .button-link:not(:first-child) {
+    margin-left: 5px;
+  }
+}
+
+/* Tablet responsive styles */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+
+  .intro-cell {
+    width: 60%;
+  }
+
+  .profile-cell {
+    width: 40%;
+  }
+
+  .project-image-cell {
+    width: 45%;
+  }
+
+  .project-content-cell {
+    width: 55%;
+  }
+}
+
+/* Ensure proper spacing on all devices */
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
 }
