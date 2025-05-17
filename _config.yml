@@ -1,0 +1,18 @@
+title: Derin Gezgin
+description: Personal website for Derin Gezgin
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - .git/
+  - .github/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+  - .DS_Store 
