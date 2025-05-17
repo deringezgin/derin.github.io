@@ -9,7 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Latin+Modern+Roman:wght@400;700&display=swap">
-    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.button-link').forEach(function(btn) {
+          const color = btn.getAttribute('data-bg-color');
+          if (color) {
+            btn.style.backgroundColor = color;
+          }
+        });
+      });
+    </script>
   </head>
 
   <body>
@@ -70,7 +79,7 @@
                     <br>
                     <div class="project-links">
                       {% for link in project.links %}
-                      <a href="{{ link.url }}" target="_blank" class="button-link" style="background:{{ link.color }};">{{ link.title }}</a>
+                      <a href="{{ link.url }}" target="_blank" class="button-link" data-bg-color="{{ link.color }}">{{ link.title }}</a>
                       {% endfor %}
                     </div>
                   </td>
