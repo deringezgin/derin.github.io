@@ -11,8 +11,8 @@ intro_content: |
     I am currently a rising-junior at Connecticut College, double majoring in Computer Science & Statistics and Data Science.
   </p>
   <p>
-    While pursuing my degrees in Computer Science and Data Science, I actively collaborate with my professors at Connecticut College on multiple research projects.
-    At the same time, I work as a teaching assistant and grader for multiple Computer Science courses. I am also a member of the Computer Science Student Advisory Board as the Diversity Chair.
+    While pursuing my degrees in Computer Science and Data Science, I collaborate with professors at Connecticut College on multiple research projects.
+    At the same time, I work as a teaching assistant and grader for multiple Computer Science courses. I was also a member of the Computer Science Student Advisory Board as the Diversity Chair.
   </p>
 
 # Links
@@ -31,7 +31,10 @@ links:
 # Research Introduction
 research_intro: |
   <p>
-    I'm a member of two research labs at Connecticut College: <a href="https://oak.conncoll.edu/parker/research.html" target="_blank">Autonomous Agent Learning Lab</a> and <a href="https://www.informatics.digital.conncoll.edu" target="_blank">Informatics Lab</a>. My research focuses on computer vision, machine learning, and artificial intelligence.
+    I'm a member of two research labs at Connecticut College: <a href="https://oak.conncoll.edu/parker/research.html" target="_blank">Autonomous Agent Learning Lab</a> and <a href="https://www.informatics.digital.conncoll.edu" target="_blank">Informatics Lab</a>.
+  </p>
+  <p>
+    My research in the Autonomous Agent Learning Lab focuses on Artificial Intelligence for Games, and Evolutionary Robotics. While I work on real-world applications of computer vision and machine learning in the Informatics Lab.
   </p>
 
 # Research Projects
