@@ -48,7 +48,7 @@ projects:
         url: https://github.com/deringezgin/River-Connectivity-Classification
         color: "#24292e"
   - title: Evolutionary Optimization of Deep Learning Agents for Sparrow Mahjong
-    image: images/sparrow.png
+    image: images/xprace.jpg
     authors: Jim O'Connor, <strong>Derin Gezgin</strong>, Gary B. Parker
     publication: In Review
   - title: Evolving Neural Controllers for Xpilot-AI Racing Using Neuroevolution of Augmenting Topologies
