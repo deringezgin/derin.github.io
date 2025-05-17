@@ -82,8 +82,8 @@ a:hover {
 
 .name {
   font-family: 'Latin Modern Roman', serif;
-  font-size: 42px !important;
-  font-weight: 700 !important;
+  font-size: 42px;
+  font-weight: 700;
   color: #000;
   margin-bottom: 15px;
 }
@@ -105,9 +105,9 @@ a:hover {
 
 .papertitle {
   font-family: 'Latin Modern Roman', serif;
-  font-size: 20px !important;
-  font-weight: 700 !important;
-  color: #00008B !important;
+  font-size: 20px;
+  font-weight: 700;
+  color: #00008B;
   display: block;
   margin-bottom: 5px;
 }
@@ -132,11 +132,11 @@ a:hover {
 }
 
 .project-image {
-  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
-  cursor: pointer !important;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .project-image:hover {
-  transform: scale(1.08) !important;
-  z-index: 2 !important;
+  transform: scale(1.08);
+  z-index: 2;
 }
