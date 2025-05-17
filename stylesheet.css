@@ -1,8 +1,15 @@
+/* Global box-sizing reset */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Latin Modern Roman', serif;
   font-size: 16px;
   color: #000;
   background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -35,6 +42,10 @@ body {
 
 .no-padding {
   padding: 0;
+}
+
+.mobile-full-width {
+  width: 100%;
 }
 
 .intro-cell {
@@ -164,8 +175,39 @@ a:hover {
 
 /* Mobile responsive styles */
 @media only screen and (max-width: 768px) {
+  /* Reset table and cell behaviors */
+  table, tr, td, tbody {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  table.container {
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+  
+  .mobile-full-width {
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
   .container {
-    padding: 15px;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .table-base,
@@ -176,6 +218,9 @@ a:hover {
   .table-projects tr {
     display: block;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .intro-cell,
@@ -185,6 +230,15 @@ a:hover {
     max-width: 100%;
     padding: 15px;
     text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .research-cell {
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .profile-image {
@@ -195,6 +249,8 @@ a:hover {
   .table-projects tr {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
 
   .project-image-cell {
@@ -202,6 +258,8 @@ a:hover {
     width: 100%;
     padding: 15px;
     order: 1;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .project-content-cell {
@@ -209,6 +267,8 @@ a:hover {
     width: 100%;
     padding: 15px;
     order: 2;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .project-image {
@@ -232,6 +292,12 @@ a:hover {
 
   .button-link:not(:first-child) {
     margin-left: 5px;
+  }
+  
+  .footer {
+    padding: 15px;
+    margin: 15px 0 0 0;
+    box-sizing: border-box;
   }
 }
 
